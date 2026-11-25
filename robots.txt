@@ -1,0 +1,30 @@
+# robots.txt — EasyFixit
+# Hébergement OVH — https://easyfixit-smartphone.com
+
+User-agent: *
+Allow: /
+
+# Pages publiques indexables
+Allow: /index.html
+Allow: /services.html
+Allow: /fonctionnement.html
+Allow: /zone.html
+Allow: /marques.html
+Allow: /contact.html
+Allow: /mentions-legales.html
+Allow: /cgv.html
+
+# Assets
+Allow: /css/
+Allow: /js/
+Allow: /assets/
+
+# Bloquer les fichiers techniques
+Disallow: /.htaccess
+Disallow: /sitemap.xml
+
+# Crawl-delay conseillé
+Crawl-delay: 10
+
+# Sitemap
+Sitemap: https://easyfixit-smartphone.com/sitemap.xml
